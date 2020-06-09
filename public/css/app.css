@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header{
+
+header {
   width: 100%;
   height: 90px;
   position: fixed;
@@ -11,29 +12,33 @@ header{
   left: 0;
   background-color: red;
 }
-nav{
+
+nav {
   width: 100px;
   height: calc(100% - 90px - 90px);
   position: fixed;
   top: 90px;
   left: 0;
   background-color: blue;
-  p{
-    color: white;
-  }
 }
-main{
+
+nav p {
+  color: white;
+}
+
+main {
   position: fixed;
   top: 90px;
   left: 100px;
   width: calc(100% - 90px);
   height: calc(100% - 90px - 90px);
-  h1{
-    color: red;
-  }
 }
 
-footer{
+main h1 {
+  color: red;
+}
+
+footer {
   width: 100%;
   height: 90px;
   position: fixed;
@@ -41,3 +46,4 @@ footer{
   left: 0;
   background-color: green;
 }
+
